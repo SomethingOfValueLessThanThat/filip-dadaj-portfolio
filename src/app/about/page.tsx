@@ -41,8 +41,6 @@ export default function Home() {
         Today, I apply these skills and passions in my work, constantly seeking new challenges and opportunities to
         innovate. My early experiences have shaped my approach to technology, where I combine the precision of a puzzle
         solver with the imagination of a gamer, always striving to build and create something extraordinary.
-        <br />
-        <br />
       </p>
     </>
   )

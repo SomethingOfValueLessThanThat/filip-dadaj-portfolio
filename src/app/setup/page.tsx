@@ -49,7 +49,7 @@ export default function Home() {
         <div className="gap-2 space-y-2">
           <h4>Zed code editor</h4>
           <p className="text-sm text-neutral-400">
-            I don’t like visual studio code it is soooo overwhelming for me. Zed is incredibly fast and efficient. Its
+            I don’t like visual studio code it is so overwhelming for me. Zed is incredibly fast and efficient. Its
             minimalist design helps me focus on coding without any distractions.
           </p>
         </div>
