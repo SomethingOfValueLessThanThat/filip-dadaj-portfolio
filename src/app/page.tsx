@@ -11,7 +11,7 @@ export default function Home() {
       <p className="pt-8">
         I’m a Front-end developer and UI/UX designer, driven by optimism and a passion for building cool stuff. At{' '}
         <Link href="https://www.sikmo.cz/" className="underline">
-          Sikmo.cz
+          šikmo
         </Link>
         , I bring creativity and innovation to life, crafting engaging digital experiences that inspire.
       </p>
