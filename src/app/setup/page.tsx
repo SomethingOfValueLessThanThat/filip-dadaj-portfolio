@@ -11,7 +11,7 @@ export default function Home() {
         productive when I&apos;m really just procrastinating. Here&apos;s a big list of all of my favorite stuff.
       </p>
 
-      <div className="relative mt-20 space-y-8 border-l border-white/20 pl-36">
+      <div className="relative mt-20 space-y-8 border-l border-white/20 pl-36 max-sm:pl-4 max-sm:pt-4">
         <p className="absolute left-4 top-[1px] text-sm">Workstation</p>
         <div className="gap-2 space-y-2">
           <h4>Mac mini M1 8GB RAM (2020)</h4>
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative mt-16 space-y-8 border-l border-white/20 pl-36">
+      <div className="relative mt-16 space-y-8 border-l border-white/20 pl-36 max-sm:pl-4 max-sm:pt-4">
         <p className="absolute left-4 top-[1px] text-sm">Development</p>
         <div className="gap-2 space-y-2">
           <h4>Zed code editor</h4>
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative mt-16 space-y-8 border-l border-white/20 pl-36">
+      <div className="relative mt-16 space-y-8 border-l border-white/20 pl-36 max-sm:pl-4 max-sm:pt-4">
         <p className="absolute left-4 top-[1px] text-sm">Design</p>
         <div className="gap-2 space-y-2">
           <h4>Figma</h4>
@@ -94,7 +94,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative mb-12 mt-16 space-y-8 border-l border-white/20 pl-36">
+      <div className="relative mb-12 mt-16 space-y-8 border-l border-white/20 pl-36 max-sm:pl-4 max-sm:pt-4">
         <p className="absolute left-4 top-[1px] text-sm">Productivity</p>
         <div className="gap-2 space-y-2">
           <h4>Excalidraw</h4>
