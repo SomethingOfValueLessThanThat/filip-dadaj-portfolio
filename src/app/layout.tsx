@@ -9,6 +9,9 @@ import '../styles/globals.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 
+// Lenis smooth scrooll imports
+import SmoothScrolling from '@/utils/lenis-smooth-scroll'
+
 const geistSans = localFont({
   src: '../assets/fonts/GeistVF.woff',
   variable: '--font-geist-sans',
@@ -31,9 +34,11 @@ export default function RootLayout({
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="bg-black font-sans text-base tracking-tight text-white antialiased selection:bg-violet-300 selection:text-violet-900">
         <main className="relative m-auto max-w-[540px] px-5">
-          <Header />
-          {children}
-          <Footer />
+          <SmoothScrolling>
+            <Header />
+            {children}
+            <Footer />
+          </SmoothScrolling>
         </main>
       </body>
     </html>
